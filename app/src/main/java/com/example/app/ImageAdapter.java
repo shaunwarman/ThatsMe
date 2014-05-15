@@ -1,4 +1,4 @@
-package com.example.androidhive;
+package com.example.app;
 
 import android.content.Context;
 import android.view.View;
@@ -12,14 +12,7 @@ public class ImageAdapter extends BaseAdapter {
 
     // Keep all Images in array
     public Integer[] mThumbIds = {
-            R.drawable.pic_1, R.drawable.pic_2,
-            R.drawable.pic_3, R.drawable.pic_4,
-            R.drawable.pic_5, R.drawable.pic_6,
-            R.drawable.pic_7, R.drawable.pic_8,
-            R.drawable.pic_9, R.drawable.pic_10,
-            R.drawable.pic_11, R.drawable.pic_12,
-            R.drawable.pic_13, R.drawable.pic_14,
-            R.drawable.pic_15
+
     };
 
     // Constructor

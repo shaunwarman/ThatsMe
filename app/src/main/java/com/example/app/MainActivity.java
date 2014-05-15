@@ -1,4 +1,4 @@
-package com.example.androidhive;
+package com.example.app;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.GridView;
+
+import com.example.app.ImageAdapter;
 
 public class MainActivity extends Activity {
 
