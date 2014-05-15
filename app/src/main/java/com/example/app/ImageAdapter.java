@@ -7,12 +7,15 @@ import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
 
+import com.example.app.R;
+
 public class ImageAdapter extends BaseAdapter {
     private Context mContext;
 
     // Keep all Images in array
     public Integer[] mThumbIds = {
-
+            R.drawable.ana, R.drawable.dog,
+            R.drawable.dog2, R.drawable.me
     };
 
     // Constructor
